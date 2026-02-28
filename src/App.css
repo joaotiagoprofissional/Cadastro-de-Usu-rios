@@ -1,0 +1,49 @@
+.app{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+input, button{
+  padding: .8rem;
+  border-radius: .7rem;
+  font-size: 1rem;
+  border: 1px solid #eee
+}
+
+button{
+  background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover{
+  background: linear-gradient(90deg,rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(2, 0, 36, 1) 100%);
+}
+
+.usuarios{
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.usuarios p{
+  color: #fff;
+}
