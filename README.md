@@ -1,8 +1,8 @@
-# 👤 Cadastro de Usuários
+👤 Cadastro de Usuários
 
-Aplicação web desenvolvida com **React + Vite** para cadastro e listagem de usuários com persistência de dados no navegador.
+Aplicação web desenvolvida com React + Vite para gerenciamento de usuários com persistência de dados no navegador.
 
-Projeto focado em praticar fundamentos essenciais de desenvolvimento front-end moderno, com código organizado, uso de hooks e integração com armazenamento local.
+O projeto evoluiu de um sistema simples de cadastro para um CRUD completo com arquitetura organizada em componentes e hooks reutilizáveis.
 
 ---
 
@@ -12,83 +12,129 @@ Projeto focado em praticar fundamentos essenciais de desenvolvimento front-end m
 
 ---
 
-## 🧩 Descrição
+🧩 Evolução do Projeto
+🔹 Versão Inicial
 
-O sistema permite cadastrar usuários informando nome, e-mail e idade.  
-Os dados são armazenados no **localStorage**, garantindo persistência mesmo após atualização da página.
+Cadastro de usuários
 
-Este projeto foi desenvolvido como exercício prático para consolidar conceitos fundamentais do ecossistema React e boas práticas de organização de código.
+Listagem de usuários
 
----
+Persistência com localStorage
 
-## 🛠️ Tecnologias Utilizadas
+Estrutura simples em um único componente
 
-- React
-- Vite
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-- LocalStorage API
+🔹 Versão Atual
 
----
+Cadastro de usuários
 
-## ✨ Funcionalidades
+Edição de usuários existentes
 
-- Cadastro de usuários via formulário controlado
-- Listagem dinâmica de usuários cadastrados
-- Persistência de dados no navegador
-- Limpeza automática do formulário após envio
-- Interface simples e responsiva
+Exclusão de usuários
 
----
+Atualização automática da lista
 
-## 🧠 Conceitos Demonstrados
+Separação em componentes reutilizáveis
 
-- Gerenciamento de estado com `useState`
-- Efeitos colaterais com `useEffect`
-- Manipulação de formulários em React
-- Renderização de listas
-- Persistência de dados com localStorage
-- Organização de projeto com Vite
-- Versionamento com Git
+Hook personalizado para persistência de dados
 
----
+Estrutura de pastas organizada como projeto profissional
 
-## ▶️ Como Executar o Projeto
+Este projeto foi evoluído para simular um fluxo real de aplicação front-end moderna.
 
-Clone o repositório:
+✨ Funcionalidades Atuais
 
-```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+✅ Cadastro de usuários via formulário controlado
+✅ Edição de usuários existentes
+✅ Remoção de usuários
+✅ Listagem dinâmica atualizada automaticamente
+✅ Persistência de dados no navegador
+✅ Formulário reutilizado para criação e edição
+✅ Interface simples e responsiva
 
-📁 Estrutura do Projeto
+🛠️ Tecnologias Utilizadas
+
+React
+
+Vite
+
+JavaScript (ES6+)
+
+HTML5
+
+CSS3
+
+LocalStorage API
+
+Git
+
+🧠 Conceitos Demonstrados
+
+Gerenciamento de estado com useState
+
+Efeitos colaterais com useEffect
+
+Comunicação entre componentes via props
+
+Atualização imutável de arrays em React
+
+Componentização e separação de responsabilidades
+
+Criação de hooks personalizados
+
+Persistência de dados no navegador
+
+Arquitetura de projeto front-end
+
+Fluxo CRUD completo
+
+Versionamento com Git
+
+📁 Estrutura Atual do Projeto
 src/
+ ├── components/
+ │    ├── UserForm.jsx
+ │    └── UserList.jsx
+ │
+ ├── hooks/
+ │    └── useUsersStorage.js
+ │
+ ├── pages/
+ │    └── Home.jsx
+ │
  ├── App.jsx
  ├── App.css
  └── main.jsx
-public/
- └── preview.png
-index.html
-package.json
-vite.config.js
+
+Arquitetura organizada por responsabilidade:
+
+UI separada da lógica
+
+Persistência isolada em hook
+
+Página responsável pelo fluxo da aplicação
+
+Testes básicos de interface
 
 🎯 Objetivo de Aprendizado
 
-Este projeto foi desenvolvido com foco em:
+Este projeto foi desenvolvido para consolidar práticas modernas de desenvolvimento front-end:
 
-✔ Prática de desenvolvimento com React
-✔ Manipulação de estado e efeitos
-✔ Persistência de dados no navegador
-✔ Organização de projeto front-end
-✔ Preparação para projetos reais
+✔ Criação de interfaces com React
+✔ Gerenciamento de estado e efeitos
+✔ Persistência de dados local
+✔ Arquitetura de componentes
+✔ Implementação de CRUD completo
+✔ Estrutura de projeto utilizada no mercado
 
-📌 Próximas Melhorias
+🚀 Próximas Melhorias Planejadas
 
-Edição e remoção de usuários
+Integração com API REST
 
-Validação de formulário mais robusta
+Consumo de API com Axios
 
-Estilização avançada
+Validação de formulário avançada
+
+Feedback visual de operações
 
 Deploy da aplicação
 
@@ -97,4 +143,4 @@ Testes básicos de interface
 👨‍💻 Autor
 
 João Tiago
-Desenvolvedor Front-end em formação
+Desenvolvedor Front-end
